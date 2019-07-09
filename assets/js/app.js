@@ -10,6 +10,9 @@ $("#login").click(function() {
 		$("#homepage").show();
 
 		$("#name").html(user.name);
+
+		
+
 	})
 	.catch(function(error){
 		alert(error);
