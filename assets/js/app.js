@@ -11,6 +11,15 @@ $("#login").click(function() {
 
 		$("#name").html(user.name);
 
+		var list = $("ul#postsList");
+		$.get("http", function(posts){
+			userID.forEach("<li></li>")
+		})
+
+		$("#posts").html(user.posts);
+
+		$("#albums").html(user.albums);
+
 		
 
 	})
